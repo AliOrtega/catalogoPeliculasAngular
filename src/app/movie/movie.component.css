@@ -1,0 +1,57 @@
+/* Bootstrap's container class for centering content */
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Card styling for each movie */
+.card {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card image styling */
+.card-img-top {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* Card body styling */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Title inside card */
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Synopsis inside card */
+.card-text {
+  flex-grow: 1;
+}
+
+/* Year inside card */
+.card-text small {
+  color: #6c757d; /* Muted Bootstrap color */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Margin for each column in the grid */
+.col-md-4 {
+  margin-bottom: 1.5rem;
+}
